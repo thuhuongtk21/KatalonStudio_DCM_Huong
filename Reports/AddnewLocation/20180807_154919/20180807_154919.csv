@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddnewLocation,Firefox 47.0,,2018-08-07 15:49:21,2018-08-07 15:50:24,1m - 3.028s,ERROR
+,,,,,,
+Test Cases/Create Location Group/Add new a Location and reset,Firefox 47.0,,2018-08-07 15:49:22,2018-08-07 15:49:36,13.698s,ERROR
+openBrowser,Firefox 47.0,,2018-08-07 15:49:23,2018-08-07 15:49:36,12.784s,PASSED
+navigateToUrl,Firefox 47.0,,2018-08-07 15:49:36,2018-08-07 15:49:36,0.068s,PASSED
+,,,,,,
+Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO,Firefox 47.0,,2018-08-07 15:49:36,2018-08-07 15:50:24,48.241s,PASSED
+openBrowser,Firefox 47.0,,2018-08-07 15:49:37,2018-08-07 15:49:48,11.083s,PASSED
+navigateToUrl,Firefox 47.0,,2018-08-07 15:49:48,2018-08-07 15:49:57,9.164s,PASSED
+maximizeWindow,Firefox 47.0,,2018-08-07 15:49:57,2018-08-07 15:49:58,1.018s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:49:58,2018-08-07 15:49:59,0.834s,PASSED
+setEncryptedText,Firefox 47.0,,2018-08-07 15:49:59,2018-08-07 15:50:00,0.521s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:00,2018-08-07 15:50:07,7.842s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:07,2018-08-07 15:50:08,0.443s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:08,2018-08-07 15:50:08,0.344s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:08,2018-08-07 15:50:15,6.784s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:50:15,2018-08-07 15:50:16,0.897s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:50:16,2018-08-07 15:50:16,0.477s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:50:16,2018-08-07 15:50:17,0.640s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:50:17,2018-08-07 15:50:18,0.488s,PASSED
+executeJavaScript,Firefox 47.0,,2018-08-07 15:50:18,2018-08-07 15:50:18,0.073s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:18,2018-08-07 15:50:18,0.468s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:18,2018-08-07 15:50:19,0.583s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:19,2018-08-07 15:50:19,0.434s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:19,2018-08-07 15:50:20,0.555s,PASSED
+executeJavaScript,Firefox 47.0,,2018-08-07 15:50:20,2018-08-07 15:50:20,0.118s,PASSED
+click,Firefox 47.0,,2018-08-07 15:50:20,2018-08-07 15:50:20,0.503s,PASSED
+verifyElementPresent,Firefox 47.0,,2018-08-07 15:50:20,2018-08-07 15:50:24,3.413s,PASSED
+"Statement - basketId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketID), ""value"")",Firefox 47.0,,2018-08-07 15:50:24,2018-08-07 15:50:24,0.186s,PASSED
+Statement - println(basketId),Firefox 47.0,,2018-08-07 15:50:24,2018-08-07 15:50:24,0.005s,PASSED
+closeBrowser,Firefox 47.0,,2018-08-07 15:50:24,2018-08-07 15:50:24,0.454s,PASSED

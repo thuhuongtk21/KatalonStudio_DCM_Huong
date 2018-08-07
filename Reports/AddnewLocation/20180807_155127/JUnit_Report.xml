@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddnewLocation" time="101" tests="1" failures="1" errors="0">
+   <testsuite name="AddnewLocation" tests="1" failures="1" errors="0" time="101" timestamp="2018-08-07 15:51:30" hostname="huongnguyen - PC-HUONGNGUYEN.vodc.lan" id="Test Suites/AddnewLocation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_155127"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_155127\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_155127\\1533631991150.png"/>
+         <property name="hostName" value="huongnguyen - PC-HUONGNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="10.10.20.60"/>
+         <property name="sessionId" value="39c359d1-40e5-42cd-9b0b-d3847eec2783"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create Location Group/Add new a Location and reset" classname="Test Cases/Create Location Group/Add new a Location and reset" status="PASSED">
+         <system-out><![CDATA[2018-08-07 15:51:30 - [TEST_CASE][PASSED] - Test Cases/Create Location Group/Add new a Location and reset: Test Cases/Create Location Group/Add new a Location and reset
+
+2018-08-07 15:51:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-07 15:51:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-07 15:51:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 15:51:52 - [MESSAGE][PASSED] - Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 15:51:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-07 15:51:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-07 15:51:52 - [TEST_STEP][PASSED] - setText: Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 15:51:53 - [MESSAGE][PASSED] - Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 15:51:53 - [TEST_STEP][PASSED] - setText: Text 'user1234' is set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 15:51:54 - [MESSAGE][PASSED] - Text 'user1234' is set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 15:51:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 15:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 15:52:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 15:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 15:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 15:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 15:52:25 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '30' second(s)
+
+2018-08-07 15:52:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-07 15:52:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '30' second(s)
+
+2018-08-07 15:52:26 - [TEST_STEP][PASSED] - setText: Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 15:52:26 - [MESSAGE][PASSED] - Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 15:52:26 - [TEST_STEP][PASSED] - setText: Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 15:52:27 - [MESSAGE][PASSED] - Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 15:52:27 - [TEST_STEP][PASSED] - setText: Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 15:52:27 - [MESSAGE][PASSED] - Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 15:52:27 - [TEST_STEP][PASSED] - setText: Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 15:52:28 - [MESSAGE][PASSED] - Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 15:52:28 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 15:52:28 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 15:52:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 15:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 15:52:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:52:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 15:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 15:52:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:52:29 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 15:52:29 - [MESSAGE][PASSED] - Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 15:52:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 15:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 15:52:30 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 15:52:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 15:52:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 15:52:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 15:52:34 - [TEST_STEP][PASSED] - Statement - basketId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketID), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3285'
+
+2018-08-07 15:52:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3285'
+
+2018-08-07 15:52:34 - [TEST_STEP][PASSED] - Statement - println(basketId): null
+
+2018-08-07 15:52:34 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 15:52:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 15:52:34 - [TEST_STEP][PASSED] - Statement - groupName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketName), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 15:52:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 15:52:35 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is cleared
+
+2018-08-07 15:52:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is cleared
+
+2018-08-07 15:52:35 - [TEST_STEP][PASSED] - setText: Text 'update Basket name' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 15:52:35 - [MESSAGE][PASSED] - Text 'update Basket name' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 15:52:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_reset' is clicked on
+
+2018-08-07 15:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_reset' is clicked on
+
+2018-08-07 15:52:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/confirm_button_Yes' is clicked on
+
+2018-08-07 15:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/confirm_button_Yes' is clicked on
+
+2018-08-07 15:52:36 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 15:52:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 15:52:37 - [TEST_STEP][PASSED] - Statement - groupName_reset = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketName), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 15:52:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 15:52:38 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'add new' and expected object 'add new' are equal
+
+2018-08-07 15:52:38 - [MESSAGE][PASSED] - Actual object 'add new' and expected object 'add new' are equal
+
+2018-08-07 15:52:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-07 15:52:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO" classname="Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Create Location Group - Cost a/img_addImage' (Root cause: org.openqa.selenium.WebDriverException: Element &lt;button title=&quot;Add&quot; id=&quot;addBasket&quot; type=&quot;button&quot; name=&quot;button&quot;>&lt;/button> is not clickable at point (1492, 156.14999389648438). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0036935; cursor: default; position: absolute;&quot;>&lt;/div>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC-HUONGNGUYEN', ip: '10.10.20.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 39c359d1-40e5-42cd-9b0b-d3847eec2783)"/>
+         <system-out><![CDATA[2018-08-07 15:52:38 - [TEST_CASE][FAILED] - Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO: Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO FAILED because (of) Unable to click on object 'Object Repository/Page_Create Location Group - Cost a/img_addImage' (Root cause: org.openqa.selenium.WebDriverException: Element <button title="Add" id="addBasket" type="button" name="button"></button> is not clickable at point (1492, 156.14999389648438). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0036935; cursor: default; position: absolute;"></div>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC-HUONGNGUYEN', ip: '10.10.20.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 39c359d1-40e5-42cd-9b0b-d3847eec2783)
+
+2018-08-07 15:52:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-07 15:52:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-07 15:52:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 15:52:56 - [MESSAGE][PASSED] - Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 15:52:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-07 15:52:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-07 15:52:56 - [TEST_STEP][PASSED] - setText: Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 15:52:57 - [MESSAGE][PASSED] - Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 15:52:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 15:52:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 15:52:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 15:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 15:53:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 15:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 15:53:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 15:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 15:53:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Create Location Group - Cost a/img_addImage' (Root cause: org.openqa.selenium.WebDriverException: Element <button title="Add" id="addBasket" type="button" name="button"></button> is not clickable at point (1492, 156.14999389648438). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0036935; cursor: default; position: absolute;"></div>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC-HUONGNGUYEN', ip: '10.10.20.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 39c359d1-40e5-42cd-9b0b-d3847eec2783)
+
+2018-08-07 15:53:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Create Location Group - Cost a/img_addImage' (Root cause: org.openqa.selenium.WebDriverException: Element <button title="Add" id="addBasket" type="button" name="button"></button> is not clickable at point (1492, 156.14999389648438). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0036935; cursor: default; position: absolute;"></div>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC-HUONGNGUYEN', ip: '10.10.20.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 39c359d1-40e5-42cd-9b0b-d3847eec2783)
+[[ATTACHMENT|D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_155127\\1533631991150.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-07 15:52:38 - [TEST_CASE][FAILED] - Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO: Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO FAILED because (of) Unable to click on object 'Object Repository/Page_Create Location Group - Cost a/img_addImage' (Root cause: org.openqa.selenium.WebDriverException: Element <button title="Add" id="addBasket" type="button" name="button"></button> is not clickable at point (1492, 156.14999389648438). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0036935; cursor: default; position: absolute;"></div>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC-HUONGNGUYEN', ip: '10.10.20.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 39c359d1-40e5-42cd-9b0b-d3847eec2783)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-07 15:51:30 - [TEST_SUITE][FAILED] - AddnewLocation: Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO FAILED because (of) Unable to click on object 'Object Repository/Page_Create Location Group - Cost a/img_addImage' (Root cause: org.openqa.selenium.WebDriverException: Element <button title="Add" id="addBasket" type="button" name="button"></button> is not clickable at point (1492, 156.14999389648438). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0036935; cursor: default; position: absolute;"></div>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC-HUONGNGUYEN', ip: '10.10.20.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 39c359d1-40e5-42cd-9b0b-d3847eec2783)]]></system-out>
+      <system-err><![CDATA[2018-08-07 15:51:30 - [TEST_SUITE][FAILED] - AddnewLocation: Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO FAILED because (of) Unable to click on object 'Object Repository/Page_Create Location Group - Cost a/img_addImage' (Root cause: org.openqa.selenium.WebDriverException: Element <button title="Add" id="addBasket" type="button" name="button"></button> is not clickable at point (1492, 156.14999389648438). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: medium none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0036935; cursor: default; position: absolute;"></div>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC-HUONGNGUYEN', ip: '10.10.20.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 39c359d1-40e5-42cd-9b0b-d3847eec2783)]]></system-err>
+   </testsuite>
+</testsuites>

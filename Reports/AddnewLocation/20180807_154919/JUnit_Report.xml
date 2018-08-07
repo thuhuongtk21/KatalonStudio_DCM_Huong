@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddnewLocation" time="63" tests="1" failures="0" errors="1">
+   <testsuite name="AddnewLocation" tests="1" failures="0" errors="1" time="63" timestamp="2018-08-07 15:49:21" hostname="huongnguyen - PC-HUONGNGUYEN.vodc.lan" id="Test Suites/AddnewLocation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_154919"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_154919\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="huongnguyen - PC-HUONGNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="10.10.20.60"/>
+         <property name="sessionId" value="51d4d70b-dcea-46a1-ae0b-7a9d3eb85e1a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create Location Group/Add new a Location and reset" classname="Test Cases/Create Location Group/Add new a Location and reset" status="ERROR">
+         <error type="ERROR" message="Test Cases/Create Location Group/Add new a Location and reset FAILED because (of) java.lang.IllegalArgumentException: Invalid row index 2 for test data 'D:\Katalon Studio\Practice\DCM\Data Files\Login\URL.dat'. Row index must be between 1..1"/>
+         <system-out><![CDATA[2018-08-07 15:49:22 - [TEST_CASE][ERROR] - Test Cases/Create Location Group/Add new a Location and reset: Test Cases/Create Location Group/Add new a Location and reset FAILED because (of) java.lang.IllegalArgumentException: Invalid row index 2 for test data 'D:\Katalon Studio\Practice\DCM\Data Files\Login\URL.dat'. Row index must be between 1..1
+
+2018-08-07 15:49:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-07 15:49:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-07 15:49:36 - [TEST_STEP][PASSED] - navigateToUrl: Test data is internal data, reading internal data]]></system-out>
+         <system-err><![CDATA[2018-08-07 15:49:22 - [TEST_CASE][ERROR] - Test Cases/Create Location Group/Add new a Location and reset: Test Cases/Create Location Group/Add new a Location and reset FAILED because (of) java.lang.IllegalArgumentException: Invalid row index 2 for test data 'D:\Katalon Studio\Practice\DCM\Data Files\Login\URL.dat'. Row index must be between 1..1]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO" classname="Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO" status="PASSED">
+         <system-out><![CDATA[2018-08-07 15:49:36 - [TEST_CASE][PASSED] - Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO: Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO
+
+2018-08-07 15:49:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-07 15:49:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-07 15:49:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-07 15:49:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 15:49:57 - [MESSAGE][PASSED] - Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 15:49:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-07 15:49:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-07 15:49:58 - [TEST_STEP][PASSED] - setText: Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 15:49:59 - [MESSAGE][PASSED] - Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 15:49:59 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 15:50:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 15:50:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 15:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 15:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 15:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 15:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 15:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 15:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 15:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 15:50:15 - [TEST_STEP][PASSED] - setText: Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 15:50:16 - [MESSAGE][PASSED] - Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 15:50:16 - [TEST_STEP][PASSED] - setText: Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 15:50:16 - [MESSAGE][PASSED] - Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 15:50:16 - [TEST_STEP][PASSED] - setText: Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 15:50:17 - [MESSAGE][PASSED] - Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 15:50:17 - [TEST_STEP][PASSED] - setText: Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 15:50:18 - [MESSAGE][PASSED] - Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 15:50:18 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 15:50:18 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 15:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 15:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 15:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 15:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 15:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 15:50:20 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 15:50:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 15:50:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 15:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 15:50:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 15:50:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 15:50:24 - [TEST_STEP][PASSED] - Statement - basketId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketID), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3284'
+
+2018-08-07 15:50:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3284'
+
+2018-08-07 15:50:24 - [TEST_STEP][PASSED] - Statement - println(basketId): null
+
+2018-08-07 15:50:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-07 15:50:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-07 15:49:21 - [TEST_SUITE][ERROR] - AddnewLocation: Test Cases/Create Location Group/Add new a Location and reset FAILED because (of) java.lang.IllegalArgumentException: Invalid row index 2 for test data 'D:\Katalon Studio\Practice\DCM\Data Files\Login\URL.dat'. Row index must be between 1..1]]></system-out>
+      <system-err><![CDATA[2018-08-07 15:49:21 - [TEST_SUITE][ERROR] - AddnewLocation: Test Cases/Create Location Group/Add new a Location and reset FAILED because (of) java.lang.IllegalArgumentException: Invalid row index 2 for test data 'D:\Katalon Studio\Practice\DCM\Data Files\Login\URL.dat'. Row index must be between 1..1]]></system-err>
+   </testsuite>
+</testsuites>

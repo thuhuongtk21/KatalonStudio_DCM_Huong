@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddnewLocation" time="95" tests="2" failures="0" errors="0">
+   <testsuite name="AddnewLocation" tests="2" failures="0" errors="0" time="95" timestamp="2018-08-07 16:00:14" hostname="huongnguyen - PC-HUONGNGUYEN.vodc.lan" id="Test Suites/AddnewLocation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_160011"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Practice\\DCM\\Reports\\AddnewLocation\\20180807_160011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="huongnguyen - PC-HUONGNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="10.10.20.60"/>
+         <property name="sessionId" value="9bafeac4-ba72-4cb0-a18c-0e8e79f03377"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create Location Group/Add new a Location and reset" classname="Test Cases/Create Location Group/Add new a Location and reset" status="PASSED">
+         <system-out><![CDATA[2018-08-07 16:00:15 - [TEST_CASE][PASSED] - Test Cases/Create Location Group/Add new a Location and reset: Test Cases/Create Location Group/Add new a Location and reset
+
+2018-08-07 16:00:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-07 16:00:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-07 16:00:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 16:00:37 - [MESSAGE][PASSED] - Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 16:00:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-07 16:00:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-07 16:00:39 - [TEST_STEP][PASSED] - setText: Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 16:00:39 - [MESSAGE][PASSED] - Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 16:00:39 - [TEST_STEP][PASSED] - setText: Text 'user1234' is set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 16:00:40 - [MESSAGE][PASSED] - Text 'user1234' is set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 16:00:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 16:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 16:00:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 16:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 16:00:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 16:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 16:00:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 16:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 16:00:54 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '30' second(s)
+
+2018-08-07 16:00:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-07 16:00:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '30' second(s)
+
+2018-08-07 16:00:55 - [TEST_STEP][PASSED] - setText: Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 16:00:56 - [MESSAGE][PASSED] - Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 16:00:56 - [TEST_STEP][PASSED] - setText: Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 16:00:56 - [MESSAGE][PASSED] - Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 16:00:56 - [TEST_STEP][PASSED] - setText: Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 16:00:57 - [MESSAGE][PASSED] - Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 16:00:57 - [TEST_STEP][PASSED] - setText: Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 16:00:57 - [MESSAGE][PASSED] - Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 16:00:57 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 16:00:58 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 16:00:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 16:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 16:00:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:00:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 16:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 16:00:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:00:59 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 16:00:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 16:00:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 16:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 16:00:59 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 16:01:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 16:01:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 16:01:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 16:01:04 - [TEST_STEP][PASSED] - Statement - basketId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketID), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3286'
+
+2018-08-07 16:01:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3286'
+
+2018-08-07 16:01:04 - [TEST_STEP][PASSED] - Statement - println(basketId): null
+
+2018-08-07 16:01:04 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 16:01:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 16:01:04 - [TEST_STEP][PASSED] - Statement - groupName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketName), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 16:01:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 16:01:04 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is cleared
+
+2018-08-07 16:01:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is cleared
+
+2018-08-07 16:01:04 - [TEST_STEP][PASSED] - setText: Text 'update Basket name' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 16:01:05 - [MESSAGE][PASSED] - Text 'update Basket name' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 16:01:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_reset' is clicked on
+
+2018-08-07 16:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_reset' is clicked on
+
+2018-08-07 16:01:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/confirm_button_Yes' is clicked on
+
+2018-08-07 16:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/confirm_button_Yes' is clicked on
+
+2018-08-07 16:01:05 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 16:01:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/loading_bar' located by 'By.xpath: //span[@class='loading-text' and contains(text(),' Please wait...')]' is not present after '60' second(s)
+
+2018-08-07 16:01:07 - [TEST_STEP][PASSED] - Statement - groupName_reset = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketName), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 16:01:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketName' is: 'add new'
+
+2018-08-07 16:01:07 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'add new' and expected object 'add new' are equal
+
+2018-08-07 16:01:07 - [MESSAGE][PASSED] - Actual object 'add new' and expected object 'add new' are equal
+
+2018-08-07 16:01:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-07 16:01:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO" classname="Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO" status="PASSED">
+         <system-out><![CDATA[2018-08-07 16:01:07 - [TEST_CASE][PASSED] - Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO: Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO
+
+2018-08-07 16:01:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-07 16:01:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-07 16:01:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 16:01:25 - [MESSAGE][PASSED] - Navigate to 'https://w2capl0051511.heb.com:20143/DCM_UI/login' successfully
+
+2018-08-07 16:01:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-07 16:01:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-07 16:01:26 - [TEST_STEP][PASSED] - setText: Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 16:01:27 - [MESSAGE][PASSED] - Text 'p165114' is set on object 'Object Repository/Login Page/input_j_username'
+
+2018-08-07 16:01:27 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 16:01:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/input_j_password'
+
+2018-08-07 16:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 16:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2018-08-07 16:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 16:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Location Group' is clicked on
+
+2018-08-07 16:01:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 16:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Cost and Deals/a_Create' is clicked on
+
+2018-08-07 16:01:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 16:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_addImage' is clicked on
+
+2018-08-07 16:01:43 - [TEST_STEP][PASSED] - setText: Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 16:01:43 - [MESSAGE][PASSED] - Text 'add new' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_basketName'
+
+2018-08-07 16:01:43 - [TEST_STEP][PASSED] - setText: Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 16:01:44 - [MESSAGE][PASSED] - Text 'sssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/input_abb'
+
+2018-08-07 16:01:44 - [TEST_STEP][PASSED] - setText: Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 16:01:44 - [MESSAGE][PASSED] - Text 'cccccccccccccccc' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_publicCmt'
+
+2018-08-07 16:01:44 - [TEST_STEP][PASSED] - setText: Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 16:01:45 - [MESSAGE][PASSED] - Text 'ssssssssssssssssssssss' is set on object 'Object Repository/Page_Create Location Group - Cost a/textarea_privateCmt'
+
+2018-08-07 16:01:45 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 16:01:45 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2018-08-07 16:01:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 16:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00006 - STEPHENVILLE' is clicked on
+
+2018-08-07 16:01:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:01:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 16:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/span_00013 - RIO GRANDE CITY-H' is clicked on
+
+2018-08-07 16:01:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/button_arrow-move-right' is clicked on
+
+2018-08-07 16:01:46 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 16:01:46 - [MESSAGE][PASSED] - Execute JavaScript 'document.documentElement.scrollTop = 0' successfully
+
+2018-08-07 16:01:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 16:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Location Group - Cost a/img_saveImage' is clicked on
+
+2018-08-07 16:01:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 16:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Location Group - Cost a/successed message' is present
+
+2018-08-07 16:01:49 - [TEST_STEP][PASSED] - Statement - basketId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketID), "value"): Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3287'
+
+2018-08-07 16:01:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create Location Group - Cost a/input_basketID' is: '3287'
+
+2018-08-07 16:01:49 - [TEST_STEP][PASSED] - Statement - println(basketId): null
+
+2018-08-07 16:01:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-07 16:01:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-07 16:00:14 - [TEST_SUITE][PASSED] - AddnewLocation: Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

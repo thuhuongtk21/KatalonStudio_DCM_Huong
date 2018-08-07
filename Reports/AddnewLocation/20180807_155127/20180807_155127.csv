@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddnewLocation,Firefox 47.0,,2018-08-07 15:51:30,2018-08-07 15:53:11,1m - 41.592s,FAILED
+,,,,,,
+Test Cases/Create Location Group/Add new a Location and reset,Firefox 47.0,,2018-08-07 15:51:30,2018-08-07 15:52:38,1m - 7.903s,PASSED
+openBrowser,Firefox 47.0,,2018-08-07 15:51:31,2018-08-07 15:51:44,13.171s,PASSED
+navigateToUrl,Firefox 47.0,,2018-08-07 15:51:44,2018-08-07 15:51:52,7.406s,PASSED
+maximizeWindow,Firefox 47.0,,2018-08-07 15:51:52,2018-08-07 15:51:52,0.373s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:51:52,2018-08-07 15:51:53,1.033s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:51:53,2018-08-07 15:51:54,0.684s,PASSED
+click,Firefox 47.0,,2018-08-07 15:51:54,2018-08-07 15:52:06,12.506s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:06,2018-08-07 15:52:07,0.429s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:07,2018-08-07 15:52:07,0.379s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:07,2018-08-07 15:52:25,17.994s,PASSED
+waitForElementNotPresent,Firefox 47.0,,2018-08-07 15:52:25,2018-08-07 15:52:26,1.011s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:52:26,2018-08-07 15:52:26,0.305s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:52:26,2018-08-07 15:52:27,0.371s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:52:27,2018-08-07 15:52:27,0.473s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:52:27,2018-08-07 15:52:28,0.452s,PASSED
+executeJavaScript,Firefox 47.0,,2018-08-07 15:52:28,2018-08-07 15:52:28,0.176s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:28,2018-08-07 15:52:28,0.335s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:28,2018-08-07 15:52:29,0.372s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:29,2018-08-07 15:52:29,0.262s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:29,2018-08-07 15:52:29,0.374s,PASSED
+executeJavaScript,Firefox 47.0,,2018-08-07 15:52:29,2018-08-07 15:52:29,0.035s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:29,2018-08-07 15:52:30,0.350s,PASSED
+waitForElementNotPresent,Firefox 47.0,,2018-08-07 15:52:30,2018-08-07 15:52:34,4.366s,PASSED
+verifyElementPresent,Firefox 47.0,,2018-08-07 15:52:34,2018-08-07 15:52:34,0.126s,PASSED
+"Statement - basketId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketID), ""value"")",Firefox 47.0,,2018-08-07 15:52:34,2018-08-07 15:52:34,0.140s,PASSED
+Statement - println(basketId),Firefox 47.0,,2018-08-07 15:52:34,2018-08-07 15:52:34,0.007s,PASSED
+waitForElementNotPresent,Firefox 47.0,,2018-08-07 15:52:34,2018-08-07 15:52:34,0.226s,PASSED
+"Statement - groupName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketName), ""value"")",Firefox 47.0,,2018-08-07 15:52:34,2018-08-07 15:52:35,0.141s,PASSED
+clearText,Firefox 47.0,,2018-08-07 15:52:35,2018-08-07 15:52:35,0.149s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:52:35,2018-08-07 15:52:35,0.401s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:35,2018-08-07 15:52:36,0.363s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:36,2018-08-07 15:52:36,0.608s,PASSED
+waitForElementNotPresent,Firefox 47.0,,2018-08-07 15:52:36,2018-08-07 15:52:37,1.304s,PASSED
+"Statement - groupName_reset = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Create Location Group - Cost a/input_basketName), ""value"")",Firefox 47.0,,2018-08-07 15:52:37,2018-08-07 15:52:38,0.164s,PASSED
+verifyEqual,Firefox 47.0,,2018-08-07 15:52:38,2018-08-07 15:52:38,0.029s,PASSED
+closeBrowser,Firefox 47.0,,2018-08-07 15:52:38,2018-08-07 15:52:38,0.628s,PASSED
+,,,,,,
+Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO,Firefox 47.0,,2018-08-07 15:52:38,2018-08-07 15:53:11,32.601s,FAILED
+openBrowser,Firefox 47.0,,2018-08-07 15:52:39,2018-08-07 15:52:49,10.117s,PASSED
+navigateToUrl,Firefox 47.0,,2018-08-07 15:52:49,2018-08-07 15:52:56,6.887s,PASSED
+maximizeWindow,Firefox 47.0,,2018-08-07 15:52:56,2018-08-07 15:52:56,0.887s,PASSED
+setText,Firefox 47.0,,2018-08-07 15:52:56,2018-08-07 15:52:57,0.601s,PASSED
+setEncryptedText,Firefox 47.0,,2018-08-07 15:52:57,2018-08-07 15:52:58,0.481s,PASSED
+click,Firefox 47.0,,2018-08-07 15:52:58,2018-08-07 15:53:03,5.965s,PASSED
+click,Firefox 47.0,,2018-08-07 15:53:03,2018-08-07 15:53:04,0.437s,PASSED
+click,Firefox 47.0,,2018-08-07 15:53:04,2018-08-07 15:53:04,0.301s,PASSED
+click,Firefox 47.0,,2018-08-07 15:53:04,2018-08-07 15:53:11,6.623s,FAILED

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_caret</name>
+   <tag></tag>
+   <elementGuidId>22436645-81c7-4a03-95c4-4db10fb57f87</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caret</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;oneTwo&quot;)/div[@class=&quot;col-md-4 first-column column&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 row-cus&quot;]/div[@class=&quot;col-md-10 row&quot;]/div[@class=&quot;col-md-11&quot;]/div[@class=&quot;btn-group bootstrap-select form-control input-sm cus-dropdown&quot;]/button[@class=&quot;btn dropdown-toggle btn-default&quot;]/span[@class=&quot;bs-caret&quot;]/span[@class=&quot;caret&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

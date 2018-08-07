@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>URL</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>1478c240-b96b-48f5-8a2b-96aee2b091b9</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fw2capl0051510.heb.com%3A20143%2FDCM_UI%2F http%3A%2F%2F10.10.30.34%3A18968%2FDCM_UI%2Flogin%3Fr%3D%2F https%3A%2F%2Fw2capl0051511.heb.com%3A20143%2FDCM_UI%2Flogin%3Fr%3D%2F</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>URL_510</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>URL_34</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>URL_511</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

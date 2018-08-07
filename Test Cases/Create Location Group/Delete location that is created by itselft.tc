@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete location that is created by itselft</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e68ba63d-7289-40a9-9f2e-483d71f03d24</testCaseGuid>
+</TestCaseEntity>
