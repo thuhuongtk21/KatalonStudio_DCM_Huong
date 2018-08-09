@@ -6,7 +6,7 @@ import java.sql.Statement;
 import com.kms.katalon.core.annotation.Keyword
 
 
-public class oneValue_OneColumn {
+public class getListDataOfOneDynamicColumn {
 	private static Connection connection = null;
 
 
@@ -22,14 +22,15 @@ public class oneValue_OneColumn {
 		connection = DriverManager.getConnection("jdbc:db2://RDZUT01.HEB.COM:446/DB2R", "SVCT_DCM", "p9rty28j")
 		Statement stm = connection.createStatement()
 		String output = null
-		
+		List<String> result_list_db = new ArrayList()
+
 
 		ResultSet resultSet = stm.executeQuery(queryString)
 		while (resultSet.next()) {
 			output = resultSet.getObject(columnName).trim()
+			result_list_db.add(output)
 		}
-		return output
-		
+		return result_list_db
 	}
 
 	@Keyword

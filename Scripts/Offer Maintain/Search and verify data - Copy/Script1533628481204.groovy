@@ -44,17 +44,26 @@ def notify_email_id_ui = WebUI.getAttribute(findTestObject('Offer Maintain Page/
 
 def email_id_ui = WebUI.getText(findTestObject('Offer Maintain Page/email_id'))
 
-String offer_des_db = CustomKeywords.'getFromDB.oneValue_OneColumn.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
+def status_time_ui = WebUI.getText(findTestObject('Offer Maintain Page/status_time'))
+
+String offer_des_db = CustomKeywords.'getFromDB.getSingleDataOfOneDynamicColumn.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
     'OFR_DES')
 
-String notify_email_id_db = CustomKeywords.'getFromDB.oneValue_OneColumn.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
+String notify_email_id_db = CustomKeywords.'getFromDB.getSingleDataOfOneDynamicColumn.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
     'OWNER_EMAIL_ID')
+
+String status_time_db = CustomKeywords.'getFromDB.getListDataOfOneDynamicColumn_notTrim.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
+    'STAT_TS')
+
+CustomKeywords.'dateTime.formatDateTime.formatDate_Time'(status_time_db, '@ yyyy-MM-dd HH:mm:ss')
 
 WebUI.verifyEqual(offer_des_ui, offer_des_db)
 
 WebUI.verifyEqual(notify_email_id_ui, notify_email_id_db)
 
 WebUI.verifyEqual(email_id_ui, notify_email_id_db)
+
+WebUI.verifyEqual(status_time_ui, status_time_db)
 
 CustomKeywords.'connectToDB.connectToDB2Test.closeDatabaseConnection'()
 
