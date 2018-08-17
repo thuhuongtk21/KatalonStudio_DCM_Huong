@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42d8f105-ba3a-4dfa-9543-16b25fc23fe8</testCaseGuid>
+   <variable>
+      <defaultValue>'1006544'</defaultValue>
+      <description></description>
+      <id>53cd26fc-ed4c-4b72-a70c-14484ccd12ff</id>
+      <masked>false</masked>
+      <name>Search_Offer_ID</name>
+   </variable>
+</TestCaseEntity>

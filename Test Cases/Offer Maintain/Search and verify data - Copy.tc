@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>55e1912b-bda1-49ec-b385-270e8335a742</testCaseGuid>
+   <variable>
+      <defaultValue>'1006544'</defaultValue>
+      <description></description>
+      <id>38e0ee9b-1246-44a2-b581-d5a26b780f83</id>
+      <masked>false</masked>
+      <name>search_offer_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'select * from db2tst5.OFFER where OFFER_ID = 1006544'</defaultValue>
+      <description></description>
+      <id>4149cfbe-9659-4ee9-bd15-051cefe60b19</id>
+      <masked>false</masked>
+      <name>query</name>
+   </variable>
 </TestCaseEntity>

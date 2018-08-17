@@ -18,40 +18,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import java.lang.Object as Object
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://w2capl0051511.heb.com:20143/DCM_UI/login')
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('Login/Login other 510'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_Home - Cost and Deals/a_Offer'))
-
-WebUI.click(findTestObject('Offer Maintain Page/offer_maintain_menu'))
-
-WebUI.setText(findTestObject('Offer Maintain Page/offer_id_input'), search_offer_id)
-
-WebUI.click(findTestObject('Offer Maintain Page/search_icon'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementNotPresent(findTestObject('Common/loading_bar'), 60)
-
-def offer_des_ui = WebUI.getAttribute(findTestObject('Offer Maintain Page/description'), 'value')
-
-def notify_email_id_ui = WebUI.getAttribute(findTestObject('Offer Maintain Page/notify_email_id'), 'value')
-
-def email_id_ui = WebUI.getText(findTestObject('Offer Maintain Page/email_id'))
-
-def status_time_ui = WebUI.getText(findTestObject('Offer Maintain Page/status_time'))
-
-String offer_des_db = CustomKeywords.'getFromDB.getSingleDataOfOneDynamicColumn.executeQuery'(query, 'OFR_DES')
-
-WebUI.verifyEqual(offer_des_ui, offer_des_db)
-
-CustomKeywords.'connectToDB.connectToDB2Test.closeDatabaseConnection'()
-
-WebUI.closeBrowser()
-
+String s = "0000010";
+String a = s.replaceFirst("^0+(?!@)", "");
+WebUI.verifyEqual(a, "10")

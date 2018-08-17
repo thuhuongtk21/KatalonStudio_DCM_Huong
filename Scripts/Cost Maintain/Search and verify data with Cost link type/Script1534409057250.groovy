@@ -18,52 +18,36 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.eclipse.persistence.internal.jpa.parsing.jpql.antlr.JPQLParser.concat_scope as concat_scope
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://w2capl0051511.heb.com:20143/DCM_UI/login')
+WebUI.navigateToUrl(GlobalVariable.URL_11)
 
 WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('Login/Login other 510'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Home - Cost and Deals/a_Offer'))
+WebUI.click(findTestObject('CostMaintainPage/costMenu'))
 
-WebUI.click(findTestObject('Offer Maintain Page/offer_maintain_menu'))
-
-WebUI.setText(findTestObject('Offer Maintain Page/offer_id_input'), offer_ID)
-
-WebUI.click(findTestObject('Offer Maintain Page/search_icon'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('CostMaintainPage/costMaintainPage'))
 
 WebUI.waitForElementNotPresent(findTestObject('Common/loading_bar'), 60)
 
-def offer_des_ui = WebUI.getAttribute(findTestObject('Offer Maintain Page/description'), 'value')
+WebUI.click(findTestObject('CostMaintainPage/itemTypeDropdownIcon'))
 
-def notify_email_id_ui = WebUI.getAttribute(findTestObject('Offer Maintain Page/notify_email_id'), 'value')
+'Unable to select Item Type value on firefox'
+WebUI.click(findTestObject('CostMaintainPage/itemType_CLINK'))
 
-def email_id_ui = WebUI.getText(findTestObject('Offer Maintain Page/email_id'))
+WebUI.setText(findTestObject('CostMaintainPage/input_Costlink'), input_CostLinkID)
 
-def resultSet = CustomKeywords.'connectToDB.connectToDB2Test.executeQuery'('select * from db2tst5.OFFER where OFFER_ID = 1006544')
+WebUI.sendKeys(findTestObject('CostMaintainPage/input_Costlink'), Keys.chord(Keys.ENTER))
 
-String offer_des_db = null
+WebUI.waitForElementNotPresent(findTestObject('Common/loading_bar'), 60)
 
-String notify_email_id_db = null
+vend_nbr_ui = WebUI.getAttribute(findTestObject('CostMaintainPage/vendor_nbr'), 'value')
 
-while (resultSet.next()) {
-    offer_des_db = resultSet.getObject('OFR_DES').trim()
-
-    notify_email_id_db = resultSet.getObject('OWNER_EMAIL_ID').trim()
-}
-
-WebUI.verifyEqual(offer_des_ui, offer_des_db)
-
-WebUI.verifyEqual(notify_email_id_ui, notify_email_id_db)
-
-WebUI.verifyEqual(email_id_ui, notify_email_id_db)
-
-CustomKeywords.'connectToDB.connectToDB2Test.closeDatabaseConnection'()
+create_by_ui = WebUI.getText(findTestObject('CostMaintainPage/search_createBy'))
 
 WebUI.closeBrowser()
 

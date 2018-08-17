@@ -19,7 +19,7 @@ public class connectToDB2Test {
 
 			connection.close()
 		}
-		connection = DriverManager.getConnection("jdbc:db2://RDZUT01.HEB.COM:446/DB2R", "SVCT_DCM", "p9rty28j")
+		connection = DriverManager.getConnection("jdbc:db2://mfhost3.heb.com:446/DB2T", "SVCT_DCM", "p9rty28j")
 		Statement stm = connection.createStatement()
 
 		ResultSet rSet = stm.executeQuery(queryString)

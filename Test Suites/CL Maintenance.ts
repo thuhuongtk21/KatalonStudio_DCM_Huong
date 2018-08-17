@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>AddnewLocation</name>
+   <name>CL Maintenance</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-08-15T10:12:30</lastRun>
@@ -10,17 +10,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>6beaa6e5-325d-4c4a-a848-33e2795bb7e4</testSuiteGuid>
+   <testSuiteGuid>1d797d66-8606-4710-8ed9-a391ebc0e367</testSuiteGuid>
    <testCaseLink>
-      <guid>0a773a15-9fef-4668-a7ae-c58374aab0c0</guid>
+      <guid>185a8207-fd39-40fe-b6e3-9e8e207ccd00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create Location Group/Add new a Location and reset</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8992ec44-0106-4400-bf79-dbe98f80ee33</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create Location Group/Add new with HEB Domain and Public switch is NO</testCaseId>
+      <testCaseId>Test Cases/Cost Link Maintenance/Cost link maintenance</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

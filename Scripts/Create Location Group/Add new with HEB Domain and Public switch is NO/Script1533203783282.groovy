@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Object Repository/Page_Home - Cost and Deals/a_Creat
 
 WebUI.click(findTestObject('Object Repository/Page_Create Location Group - Cost a/img_addImage'))
 
+WebUI.waitForElementNotPresent(findTestObject('Common/loading_bar'), 60)
+
 WebUI.setText(findTestObject('Object Repository/Page_Create Location Group - Cost a/input_basketName'), 'add new')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Location Group - Cost a/input_abb'), 'sssss')

@@ -52,5 +52,6 @@ while (resultSet.next()) {
 
 WebUI.verifyEqual(item_code_list_ui, item_code_list_db)
 
+
 WebUI.closeBrowser()
 

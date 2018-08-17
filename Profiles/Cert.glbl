@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Cert</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://w2capl0051511.heb.com:20143/DCM_UI/login?r=/'</initValue>
+      <name>URL_11</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DB2TST5'</initValue>
+      <name>Schema</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

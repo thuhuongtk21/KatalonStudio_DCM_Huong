@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0d7e6cee-0e88-49f5-9876-649604b879c2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee21a1f3-2167-426e-b388-885da5583134</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>'1006544'</defaultValue>
+      <description></description>
+      <id>91c93db5-c9d4-4383-a3c1-198c0e2440a3</id>
+      <masked>false</masked>
+      <name>offer_ID</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search and verify data with Cost link type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6b30bca-50d5-4909-8b16-947390b83460</testCaseGuid>
+   <variable>
+      <defaultValue>'1674'</defaultValue>
+      <description></description>
+      <id>51e9e75e-efb8-4593-a43d-a7d570d03199</id>
+      <masked>false</masked>
+      <name>input_CostLinkID</name>
+   </variable>
+</TestCaseEntity>

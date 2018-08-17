@@ -2,18 +2,21 @@ package getFromDB
 
 import java.sql.*
 import java.sql.Statement;
-
-import com.kms.katalon.core.annotation.Keyword
 import java.lang.String
 
-public class getSingleDataOfOneDynamicColumn_SwitchCase {
+import com.kms.katalon.core.annotation.Keyword
+
+
+public class variable_getSingleDataOfOneDynamicColumn {
 	private static Connection connection = null;
 
 
 
 	@Keyword
 
-	def executeQuery(String queryString, String columnName) {
+	def executeQuery(String queryString, String schema, String columnName) {
+		String query_execute = String.format(queryString, schema)
+
 		Class.forName('com.ibm.db2.jcc.DB2Driver')
 		if(connection != null && !connection.isClosed()){
 
@@ -24,15 +27,9 @@ public class getSingleDataOfOneDynamicColumn_SwitchCase {
 		String output = null
 
 
-		ResultSet resultSet = stm.executeQuery(queryString)
+		ResultSet resultSet = stm.executeQuery(query_execute)
 		while (resultSet.next()) {
 			output = resultSet.getObject(columnName).trim()
-			String output_String = output.toString()
-			switch(output){
-				case "s303174":
-					output= output.replace('s303174', 'S303174 Schuehle,Celeste')
-					break
-			}			
 		}
 		return output
 	}

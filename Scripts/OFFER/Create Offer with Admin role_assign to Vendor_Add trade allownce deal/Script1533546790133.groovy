@@ -47,8 +47,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Offer - Cost and Dea
 
 WebUI.click(findTestObject('Page_Create Offer - Cost and Deals/a_v903579 - Ryan Lawrence(Brok'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create Offer - Cost and Deals/input_keyword'), 'keyword')
-
 WebUI.click(findTestObject('Object Repository/Page_Create Offer - Cost and Deals/span_nextOffer'))
 
 WebUI.waitForElementNotPresent(findTestObject('Common/loading_bar'), 60)

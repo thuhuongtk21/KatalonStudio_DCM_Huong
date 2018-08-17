@@ -18,8 +18,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.eclipse.persistence.internal.jpa.parsing.jpql.antlr.JPQLParser.concat_scope as concat_scope
 import org.openqa.selenium.Keys as Keys
+import java.lang.Object
+
 
 WebUI.openBrowser('')
 
@@ -33,7 +34,7 @@ WebUI.click(findTestObject('Page_Home - Cost and Deals/a_Offer'))
 
 WebUI.click(findTestObject('Offer Maintain Page/offer_maintain_menu'))
 
-WebUI.setText(findTestObject('Offer Maintain Page/offer_id_input'), offer_ID)
+WebUI.setText(findTestObject('Offer Maintain Page/offer_id_input'), '1001361')
 
 WebUI.click(findTestObject('Offer Maintain Page/search_icon'), FailureHandling.STOP_ON_FAILURE)
 
@@ -45,23 +46,27 @@ def notify_email_id_ui = WebUI.getAttribute(findTestObject('Offer Maintain Page/
 
 def email_id_ui = WebUI.getText(findTestObject('Offer Maintain Page/email_id'))
 
-def resultSet = CustomKeywords.'connectToDB.connectToDB2Test.executeQuery'('select * from db2tst5.OFFER where OFFER_ID = 1006544')
+def status_time_ui = WebUI.getText(findTestObject('Offer Maintain Page/status_time'))
 
-String offer_des_db = null
 
-String notify_email_id_db = null
+String offer_des_db = CustomKeywords.'getFromDB.getSingleDataOfOneDynamicColumn.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
+    'OFR_DES')
 
-while (resultSet.next()) {
-    offer_des_db = resultSet.getObject('OFR_DES').trim()
+String notify_email_id_db = CustomKeywords.'getFromDB.getSingleDataOfOneDynamicColumn.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
+    'OWNER_EMAIL_ID')
 
-    notify_email_id_db = resultSet.getObject('OWNER_EMAIL_ID').trim()
-}
+String status_time_db = CustomKeywords.'getFromDB.getListDataOfOneDynamicColumn_notTrim.executeQuery'('select * from db2tst6.OFFER where OFFER_ID = 1001361', 
+    'STAT_TS')
+
+CustomKeywords.'dateTime.formatDateTime.formatDate_Time'(status_time_db, '@ yyyy-MM-dd HH:mm:ss')
 
 WebUI.verifyEqual(offer_des_ui, offer_des_db)
 
 WebUI.verifyEqual(notify_email_id_ui, notify_email_id_db)
 
 WebUI.verifyEqual(email_id_ui, notify_email_id_db)
+
+WebUI.verifyEqual(status_time_ui, status_time_db)
 
 CustomKeywords.'connectToDB.connectToDB2Test.closeDatabaseConnection'()
 
